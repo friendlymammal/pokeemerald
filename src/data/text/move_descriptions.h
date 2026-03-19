@@ -1469,6 +1469,10 @@ static const u8 sPoisonJabDescription[] = _(
     "A stabbing attack that\n"
     "may poison the foe.");
 
+static const u8 sHealPulseDescription[] = _(
+    "Recovers up to half the\n"
+    "target's maximum HP.");
+
 // MOVE_NONE is ignored in this table. Make sure to always subtract 1 before getting the right pointer.
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
 {
