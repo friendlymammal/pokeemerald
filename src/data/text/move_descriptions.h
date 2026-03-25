@@ -1843,4 +1843,5 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_PLAY_ROUGH - 1] = sPlayRoughDescription,
     [MOVE_MOONBLAST - 1] = sMoonblastDescription,
     [MOVE_POISON_JAB - 1] = sPoisonJabDescription,
+    [MOVE_HEAL_PULSE - 1] = sHealPulseDescription,
 };
